@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #24272E;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+}
+
+header > h2 {
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 2.5rem;
+  color: #24272E;
+}
+
+.buttons {
+  text-align: center;
+  margin: auto;
+  margin-top: 175px;
+}
+
+.buttons > button {
+  font-size: 1rem;
+  font-family: Varela Round, sans-serif;
+  color: white;
+  background-color: crimson;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px 45px;
+}
+
+.buttons > button:hover {
+  background-color: #24272E;
+}
+
+
+#stopwatch {
+  text-align: center;
+  color: white;
+  font-family: Varela Round, sans-serif;
+  font-size: 3rem;
+  border: 3px solid white;
+  border-radius: 5px;
+  width: 20%;
+  margin: auto;
+  margin-top: 150px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#start-btn:disabled {
+  background-color: darkgray;
+}
+
+#start-btn:disabled:hover {
+  background-color: darkgray;
+}
+
+#pause-btn:disabled {
+  background-color: darkgray;
+}
+
+#pause-btn:disabled:hover {
+  background-color: darkgray;
+}
